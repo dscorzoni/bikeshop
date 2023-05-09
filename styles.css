@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    align-items: center;
+}
+
+body {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #35352B;
+}
+
+header div.container {
+    padding: 0.5rem 0.5rem;
+    color: rgb(231, 231, 231);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    flex: 1;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    flex: 3;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+nav a {
+    min-width: 150px;
+    text-align: center;
+    color: rgb(231, 231, 231);
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding: 0.5rem 0.7rem;
+    border-radius: 0.3rem;
+    transition: 0.5s;
+}
+
+nav a:hover {
+    color: #35352B;
+    background-color: #b2b2b2;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero {
+    display: flex;
+    margin: 2rem 0;
+    align-items: center;
+    justify-content: center;
+    max-width: 1080px;
+    flex-wrap: wrap;
+}
+
+.hero-content {
+    display: flex;
+    padding: 2rem;
+    flex: 2;
+    flex-direction: column;
+    align-items: baseline;
+    flex-wrap: wrap;
+    margin-right: 2rem;
+
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    color: rgb(166, 9, 9);
+}
+
+.hero-content h2 {
+    font-size: 1.7rem;
+    padding: 0 0 1rem 0;
+}
+
+.hero-content p {
+    font-size: 1.3rem;
+}
+
+.hero-content button {
+    margin-top: 1rem;
+    background-color:rgb(255, 255, 255);
+    border-style: solid;
+    color:rgb(166, 9, 9);
+    border-color:rgb(166, 9, 9);
+    border-radius: 1rem;
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+}
+
+.hero-content button:hover {
+    margin-top: 1rem;
+    background-color:rgb(247, 206, 206);
+    border-style: solid;
+    color:rgb(166, 9, 9);
+    border-color:rgb(166, 9, 9);
+    border-radius: 1rem;
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.hero-content button:active {
+    margin-top: 1rem;
+    background-color:rgb(205, 142, 142);
+    border-style: solid;
+    color:rgb(166, 9, 9);
+    border-color:rgb(166, 9, 9);
+    border-radius: 1rem;
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.hero-image {
+    flex: 1;
+    max-width: 350px;
+    border-radius: 1rem;
+}
+
+article.products {
+    background: linear-gradient(180deg, rgb(233, 233, 233), rgb(248, 248, 248));    
+}
+
+article.products {
+    width: 100%;
+    background-image: linear-gradient(180deg, rgb(233, 233, 233), rgb(248, 248, 248));
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0;
+}
+
+article.products h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+section.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 2rem;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+div.card {
+    background-color: white;
+    border-radius: 1rem;
+    max-width: 250px;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid lightgrey;
+}
+
+div.card h3 {
+    padding: 1rem;
+    font-size: 1.3rem;
+}
+
+div.card p {
+    padding: 1rem;
+    font-size: 1rem;
+    text-align: center;
+}
+
+div.card p.discount {
+    padding: 1rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color:rgb(166, 9, 9);
+}
+
+.card img {
+    width: 100px;
+    border-radius: 20rem;
+}
+
+article.contact-form {
+    width: 100%;
+    background-image: linear-gradient(180deg, rgb(233, 233, 233), rgb(248, 248, 248));
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+    min-width: 15rem;
+    align-items: self-start;
+    justify-content: center;
+    gap: 0.2rem;
+}
+
+form input {
+    width: 20rem;
+    padding: 0.3rem;
+    font-size: 1rem;
+    border: 1px solid lightgrey;
+}
+
+form textarea {
+    width: 20rem;
+    padding: 0.3rem;
+    font-size: 1rem;
+    border: 1px solid lightgrey;
+    height: 5rem;
+}
+
+form button {
+    align-self: center;
+    margin-top: 0.5rem;
+    background-color:rgb(255, 255, 255);
+    border-radius: 0.3rem;
+    border: 1px solid lightgrey;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    width: 10rem;
+}
+
+form button:hover {
+    align-self: center;
+    margin-top: 0.5rem;
+    background-color:rgb(235, 235, 235);
+    border-radius: 0.3rem;
+    border: 1px solid lightgrey;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    width: 10rem;
+    transition: 1s;
+}
+
+footer {
+    height: 4rem;
+    background-color: #35352B;
+    color: rgb(231, 231, 231);
+    padding: 0.5rem 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+footer div.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer div div {
+    padding: 1rem;
+}
