@@ -27,7 +27,10 @@ It's a way to put in practice the new knowledge that I acquired on:
 
 If you want test the website, you just have to download the files and run locally in your browser. No packages are necessary because it's a simple app in HTML and CSS website. Use git-clone to download this repository to your machine:
 
+```
 git clone https://github.com/dscorzoni/bikeshop
+```
+
 Then just open index.html in your browser of preference.
 
 Have fun!
